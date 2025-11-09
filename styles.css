@@ -36,6 +36,11 @@ li {
   margin-bottom: 50px;
 }
 
+.title {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
 .pricing {
   display: flex;
   justify-content: space-around;
@@ -152,7 +157,6 @@ li {
 @media (max-width: 768px) {
   .pricing {
     flex-direction: column;
-    /*ou: display: block;*/
   }
 
   .container {
